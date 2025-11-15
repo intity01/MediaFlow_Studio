@@ -1,3 +1,0 @@
-# Development
-
-แนวทางการพัฒนา MediaFlow Studio
