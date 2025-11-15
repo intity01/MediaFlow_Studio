@@ -1,0 +1,12 @@
+# CI for frontend web build
+name: Frontend Web Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: cd frontend-web && npm install
+      - name: Build
+        run: cd frontend-web && npm run build
