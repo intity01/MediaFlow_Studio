@@ -1,7 +1,9 @@
 <div align="center">
 
 # MediaFlow
-
+<p align="center">
+  <img src="assets/showcase.png" width="100%" alt="MediaFlow Showcase">
+</p>
 **Free & Open Source Media Toolkit**
 
 Download media, process audio, and separate stems with AI - all running locally on your computer.
