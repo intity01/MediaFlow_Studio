@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 MediaFlow
+# MediaFlow
 
 <img src="screenshots/app-preview.png" alt="MediaFlow Preview" width="800"/>
 
@@ -12,28 +12,28 @@ Download media, process audio, and separate stems with AI - all running locally 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Download](https://img.shields.io/badge/Download-Windows-0078D6?logo=windows)](https://github.com/intity01/MediaFlow/releases)
 
-[📥 Download](https://github.com/intity01/MediaFlow/releases) • [📖 Documentation](#features) • [💻 Source Code](https://github.com/intity01/MediaFlow/tree/master)
+[Download](https://github.com/intity01/MediaFlow/releases) | [Documentation](#features) | [Source Code](https://github.com/intity01/MediaFlow/tree/master)
 
 </div>
 
 ---
 
-## ✨ Features
+## Features
 
-### 📥 Media Downloader
+### Media Downloader
 <img src="screenshots/downloader.png" alt="Downloader" width="600"/>
 
 - Download from YouTube, TikTok, and more
 - Auto-detect available quality
 - Batch download & playlist import
 
-### 🎛️ Audio Lab
+### Audio Lab
 <img src="screenshots/audiolab.png" alt="Audio Lab" width="600"/>
 
 - Pitch shifting
 - BPM & Key detection
 
-### 🎚️ Stem Separator
+### Stem Separator
 <img src="screenshots/stems.png" alt="Stem Separator" width="600"/>
 
 - AI-powered stem separation
@@ -42,7 +42,7 @@ Download media, process audio, and separate stems with AI - all running locally 
 
 ---
 
-## 📥 Download
+## Download
 
 | Platform | Download |
 |----------|----------|
@@ -50,24 +50,24 @@ Download media, process audio, and separate stems with AI - all running locally 
 
 ---
 
-## 🔒 Privacy
+## Privacy
 
 MediaFlow runs 100% locally. No data collection. See [PRIVACY.md](PRIVACY.md)
 
-## 📄 License
+## License
 
 MIT License - [LICENSE](LICENSE)
 
-## 👨‍💻 Author
+## Author
 
-**MAMIPOKO** 🇹🇭
+**MAMIPOKO**
 
 ---
 
 <div align="center">
 
-**[⬇️ Download Now](https://github.com/intity01/MediaFlow/releases)**
+**[Download Now](https://github.com/intity01/MediaFlow/releases)**
 
-Made with ❤️ in Thailand
+Made with love in Thailand
 
 </div>

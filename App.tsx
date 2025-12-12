@@ -443,14 +443,14 @@ const App: React.FC = () => {
             {/* Settings Modal */}
             {showSettings && (
               <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm" onClick={() => setShowSettings(false)}>
-                <div className="bg-[#18181b] border border-white/10 rounded-xl max-w-md w-full max-h-[80vh] overflow-y-auto m-4" onClick={e => e.stopPropagation()}>
-                  <div className="sticky top-0 bg-[#18181b] border-b border-white/10 p-4 flex items-center justify-between">
+                <div className="bg-[#18181b] border border-white/10 rounded-xl max-w-md w-full m-4 overflow-hidden" onClick={e => e.stopPropagation()}>
+                  <div className="bg-[#18181b] border-b border-white/10 p-4 flex items-center justify-between">
                     <h3 className="text-sm font-bold text-white">Settings</h3>
                     <button onClick={() => setShowSettings(false)} className="text-slate-400 hover:text-white">
                       <X className="w-4 h-4" />
                     </button>
                   </div>
-                  <div className="p-4">
+                  <div className="p-4 max-h-[70vh] overflow-y-auto">
                     <Settings />
                   </div>
                 </div>

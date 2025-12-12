@@ -8,12 +8,12 @@
 
 MediaFlow is a desktop application that runs entirely on your computer. We do not:
 
-- ❌ Collect personal information
-- ❌ Track your usage
-- ❌ Send data to external servers
-- ❌ Store your files on cloud services
-- ❌ Use analytics or telemetry
-- ❌ Require account registration
+- Collect personal information
+- Track your usage
+- Send data to external servers
+- Store your files on cloud services
+- Use analytics or telemetry
+- Require account registration
 
 ## Local Processing
 

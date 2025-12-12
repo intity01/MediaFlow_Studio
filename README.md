@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 MediaFlow
+# MediaFlow
 
 **Free & Open Source Media Toolkit**
 
@@ -15,28 +15,28 @@ Download media, process audio, and separate stems with AI - all running locally 
 
 ---
 
-## ✨ Features
+## Features
 
-### 📥 Media Downloader
+### Media Downloader
 - Download from YouTube, TikTok, and more
 - Auto-detect available quality (resolution, FPS)
 - Batch download & playlist import
 - Audio extraction (MP3, FLAC, WAV)
 
-### 🎛️ Audio Lab
+### Audio Lab
 - Pitch shifting (-12 to +12 semitones)
 - BPM detection
 - Key detection
 - Quick presets
 
-### 🎚️ Stem Separator
+### Stem Separator
 - AI-powered stem separation (2/4/6 stems)
 - Multiple models: Demucs, MDX-Net, VR Arch
 - Output modes: All, Vocals Only, Instrumental, Drums, Bass
 - GPU acceleration (CUDA)
 - Built-in stem mixer with seekbar
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -56,7 +56,7 @@ npm run tauri:dev
 npm run tauri:build
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 | Tool | Purpose |
 |------|---------|
@@ -66,15 +66,15 @@ npm run tauri:build
 | audio-separator | Stem separation |
 | PyTorch CUDA | GPU acceleration |
 
-## 🔒 Privacy
+## Privacy
 
 MediaFlow runs 100% locally. We don't collect any data. See [PRIVACY.md](PRIVACY.md) for details.
 
-## 📄 License
+## License
 
 MIT License - Free to use, modify, and distribute. See [LICENSE](LICENSE).
 
-## 🙏 Credits & Technologies
+## Credits & Technologies
 
 | Technology | Purpose |
 |------------|---------|
@@ -89,16 +89,16 @@ MIT License - Free to use, modify, and distribute. See [LICENSE](LICENSE).
 | [Tailwind CSS](https://tailwindcss.com) | Styling |
 | [Lucide Icons](https://lucide.dev) | Icons |
 
-## 👨‍💻 Author
+## Author
 
-**MAMIPOKO** 🇹🇭
+**MAMIPOKO**
 
 ---
 
 <div align="center">
 
-Made with ❤️ in Thailand
+Made with love in Thailand
 
-Special thanks to all open source contributors 💜
+Special thanks to all open source contributors
 
 </div>

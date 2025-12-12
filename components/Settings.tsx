@@ -146,7 +146,7 @@ export const Settings: React.FC = () => {
             onClick={() => updateSettings({ theme: settings.theme === 'dark' ? 'light' : 'dark' })}
             className="w-full py-2 rounded-lg bg-[#121214] border border-white/10 text-xs font-bold text-slate-300 hover:bg-white/5 transition-colors"
           >
-            {settings.theme === 'dark' ? '🌙 Dark' : '☀️ Light'}
+            {settings.theme === 'dark' ? 'Dark' : 'Light'}
           </button>
         </div>
 
@@ -220,7 +220,7 @@ export const Settings: React.FC = () => {
         </div>
 
         <div className="text-[10px] text-slate-600 pt-2 border-t border-white/5">
-          Made with ❤️ by <span className="text-slate-400">MAMIPOKO</span> 🇹🇭
+          Made with love by <span className="text-slate-400">MAMIPOKO</span>
         </div>
       </div>
 
@@ -262,7 +262,7 @@ export const Settings: React.FC = () => {
           </div>
         </div>
         <div className="text-[9px] text-slate-600 text-center pt-2">
-          Special thanks to all open source contributors 💜
+          Special thanks to all open source contributors
         </div>
       </div>
     </div>
