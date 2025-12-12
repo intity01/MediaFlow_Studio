@@ -1,0 +1,53 @@
+{
+  "name": "mediaflow",
+  "private": false,
+  "version": "0.9.0",
+  "description": "Free media toolkit - Download, process audio, and separate stems with AI",
+  "author": "MAMIPOKO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intity01/MediaFlow.git"
+  },
+  "keywords": [
+    "media",
+    "audio",
+    "video",
+    "downloader",
+    "stem-separator",
+    "ai",
+    "tauri"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.0.0",
+    "@tauri-apps/plugin-dialog": "^2.4.2",
+    "@tauri-apps/plugin-shell": "^2.3.3",
+    "@tauri-apps/plugin-store": "^2.4.1",
+    "lucide-react": "^0.554.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@tauri-apps/cli": "^2.9.4",
+    "@types/node": "^22.19.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.1.17",
+    "to-ico": "^1.0.1",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

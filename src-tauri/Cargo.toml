@@ -1,0 +1,33 @@
+[package]
+name = "mediaflow"
+version = "0.9.0"
+description = "Free media toolkit - Download, process audio, and separate stems with AI"
+authors = ["MAMIPOKO"]
+license = "MIT"
+repository = "https://github.com/intity01/MediaFlow.git"
+edition = "2021"
+rust-version = "1.77.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "mediaflow_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5.1", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+dotenvy = "0.15"
+chrono = { version = "0.4", default-features = true }
+dirs = "5"
+tauri = { version = "2.9.2", features = ["protocol-asset"] }
+tauri-plugin-log = "2"
+tauri-plugin-dialog = "2.4.2"
+tauri-plugin-store = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-shell = "2"
+tokio = { version = "1.48.0", features = ["sync"] }
