@@ -91,7 +91,7 @@ MIT License - Free to use, modify, and distribute. See [LICENSE](LICENSE).
 
 ## Author
 
-**MAMIPOKO**
+**MAMIPOKO.DEV**
 
 ---
 
